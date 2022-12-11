@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  
+text-align: center;
+justify-content: center;
+}
+
+.cardsFlex {
+  display: flex;
+ 
+}
+.wordFlex {
+display: grid;
+grid-template-columns: auto;
+  width: 100%;
+  margin-top: 100px;
+ 
+}
+
+

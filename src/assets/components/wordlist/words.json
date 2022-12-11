@@ -1,0 +1,27 @@
+[ 
+    {
+  "id": "1",
+    "theme": "Животные",
+    "english": "hedgehog",
+    "russian": "ежик"
+  },
+  {
+    "id": "2",
+    "theme": "Предмет",
+    "english": "pen",
+    "russian": "ручка"
+  }, 
+  {
+    "id": "3",
+    "theme": "Семья",
+   "english": "mother",
+    "russian": "мама"
+  },
+  {
+    "id": "4",
+    "theme": "Овощи",
+    "english": "cucumber",
+    "russian": "огурец"
+  }
+  ]
+ 

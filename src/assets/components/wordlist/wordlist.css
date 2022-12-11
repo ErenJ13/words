@@ -1,0 +1,31 @@
+.WordAdd{
+
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 226, 255);
+}
+.card-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.del{
+   background-image: url("https://img.icons8.com/ios-glyphs/30/null/delete-forever.png");
+   background-position: center;
+   background-color: rgb(255, 255, 255);
+   border: 2px solid rgb(125, 51, 154);
+    width: 30px;
+    height: 30px;
+}
+
+.pen{
+    background-image: url("https://img.icons8.com/ios-glyphs/30/null/ball-point-pen.png");
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(125, 51, 154);
+     width: 30px;
+     height: 30px;
+}
