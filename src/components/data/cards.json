@@ -1,0 +1,27 @@
+ [
+    {
+  "id": "1",
+    "name": "dog",
+    "translate": "собака",
+    "color": "rgb(68, 63, 63)"
+  },
+  {
+    "id": "2",
+    "name": "cat",
+    "translate": "кот",
+    "color": "rgb(68, 63, 63)"
+  }, 
+  {
+    "id": "3",
+    "name": "rat",
+    "translate": "крыса",
+    "color": "rgb(68, 63, 63)"
+  },
+  {
+    "id": "4",
+    "name": "tiger",
+    "translate": "тигр",
+    "color": "rgb(68, 63, 63)"
+  }
+  ]
+  

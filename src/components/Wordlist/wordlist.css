@@ -1,0 +1,44 @@
+
+.wordTable{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    border: solid 1px rgb(205, 205, 205);
+    width: 100%;
+ 
+  
+}
+
+
+
+.del{
+   background-image: url("https://img.icons8.com/ios-glyphs/30/null/delete-sign.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: rgb(255, 255, 255);
+  border: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.pen{
+    background-image: url("https://img.icons8.com/ios-glyphs/30/null/ball-point-pen.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+     width: 50px;
+     height: 50px;
+}
+
+.save{
+    background-image: url("https://img.icons8.com/metro/26/null/checkmark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+     width: 50px;
+     height: 50px;
+}

@@ -1,8 +1,8 @@
 
-function Header(props) {
+function Header() {
     return (
         <div className="head">
-            <a href="">Words</a>
+            {/* <p>Words</p> */}
         </div>
     );
 }
