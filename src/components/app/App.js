@@ -69,17 +69,17 @@ export default function App() {
   };
 
   function editWords(id, theme, rus, eng){
- const copyWords = [...wordsTable]
- const resultEdit = copyWords.map(words =>{
-  if(words.id === id){
-    words.theme = theme
-    words.eng = eng
-    words.rus = rus
+    const copyWords = [...wordsTable]
+    const resultEdit = copyWords.map(words =>{
+    if(words.id === id){
+      words.theme = theme
+      words.eng = eng
+      words.rus = rus
+      return words
+    }
     return words
-  }
-  return words
- } )
- setWords(resultEdit)
+    } )
+    setWords(resultEdit)
   }
      return ( 
       <div className = "App">

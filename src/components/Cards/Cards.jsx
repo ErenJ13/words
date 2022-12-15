@@ -6,7 +6,7 @@ import { useState } from 'react';
 function Card(props) {
     const [isChecked, setChecked] = useState(false);
     const handleClick = () => {
-     setChecked(!isChecked);
+    setChecked(!isChecked);
     }
     return(
         <div className='card'>{isChecked ? props.translate : props.name }
