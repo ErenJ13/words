@@ -13,7 +13,7 @@ export default function CardPage(){
     setWords(words)
   }, [])
   return(
-    <div>
+    <div className='tableFlex'>
     <WordHead></WordHead>
     {
       wordsTable.map((word) => 
