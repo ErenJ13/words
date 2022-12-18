@@ -8,10 +8,10 @@ justify-content: center;
 
 .cardsFlex {
   display: flex;
- 
+
 }
 .tableFlex {
-
+ margin-top: 0px;
   width: 100%;
 
  

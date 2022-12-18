@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-
+background-color: rgb(255, 255, 255);
     border: solid 1px rgb(205, 205, 205);
     width: 100%;
  
