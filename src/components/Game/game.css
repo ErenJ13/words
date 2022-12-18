@@ -1,48 +1,41 @@
-.cardGame{
-     display: flex;
+.cardGame {
+    display: flex;
     flex-direction: column;
-    align-items:stretch;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
     width: 250px;
     height: 350px;
-    background-color: rgb(101, 101, 101);
+    background-color: rgb(94, 61, 99);
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 60px;
     border: 1px solid white;
 }
 
-.cardName {
-    background-color: rgb(38, 146, 182);
-    color: rgb(236, 239, 240);
-    text-align: center;
+
+.button>button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid white;
 }
 
-.cardTranslate{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(236, 239, 240);
-    text-align: center;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 18px;
-    border: 1px solid white;
-}
-
-.buttonWord2{
+.buttonWord2 {
     width: 50px;
     height: 50px;
+    border-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     background-image: url("https://img.icons8.com/fluency/48/null/long-arrow-right.png");
 }
-.buttonWord1{
+
+.buttonWord1 {
     width: 50px;
     height: 50px;
+    border-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     background-image: url("https://img.icons8.com/fluency/48/null/long-arrow-left.png");
 
 }

@@ -1,13 +1,38 @@
 .head{
     display: flex;
-    justify-content:left;
-    
+    align-items: center;
+    justify-content:space-between;
     background-color: #b686ce;
     width: 100%;
-    height: 50px;
+    height: 80px;
 }
-.head>a{
-    margin: 15px;
+.head>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.head>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+ 
+  
+}
+.head>ul>li>.link{
+    font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
     text-decoration: none;
+    font-size: 40px;
+
+ 
+}
+.head>ul>li>.logo{
+   
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.head>ul>li>.logo>img{
+    width: 90px;
+    height: 50px;
 }

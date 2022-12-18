@@ -31,7 +31,9 @@ function WordAdd (words, editWords){
    }
 
    function saveWords(){
+      setIsEditMode(!isEditMode);
       editWords(id, theme, eng, rus)
+      
    }
    return (
       <div >

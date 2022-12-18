@@ -1,0 +1,41 @@
+.error>h1{
+    font-size: 50px;
+}
+.error>p{
+    font-size: 40px;
+}
+
+.error_img{
+    width: 400px;
+    height: 100%;
+}
+.error>.link_error{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style-type: none;
+
+}
+.error>.link_error>p{
+   font-size: 30px;
+
+}
+.error>.link_error>.link{
+   
+    color: rgb(0, 0, 0);
+   
+    list-style-type: none;
+    font-size: 40px;
+    margin: 50px;
+    padding: 20px;
+ 
+}
+.error>.link_error>.link:hover{
+   
+    color: rgb(178, 0, 243);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 40px;
+
+ 
+}

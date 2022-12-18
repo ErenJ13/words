@@ -5,8 +5,8 @@ import '../components/Game/game.css';
 
 export default function GamePage(){
     const [gameCards, setGame] = useState(false)
-    const [wordsTable, setWords] = useState([])
     const [count, setCount] = useState(0);
+
     useEffect(() => {
         setGame(cards)
       }, [])
@@ -16,34 +16,30 @@ export default function GamePage(){
       }
     
       function hadleClickPrev(){
-        let copyCount = count;
-        copyCount = copyCount -1;
-        setCount(copyCount);
+        if (count !== 0) {
+          setCount(count - 1);
+          } else if (count < cards.length){
+            setCount(cards.length-1)
+          }  
       };
       function hadleClickNext(){
-        let copyCount = count;
-        copyCount = copyCount+1;
-        setCount(copyCount);
+        
+        if (count !== cards.length-1) {
+          setCount(count + 1);
+          } else if (count >= cards.length-1) {  
+          setCount(0);
+          } 
       };
-    
-      function editWords(id, theme, rus, eng){
-        const copyWords = [...wordsTable]
-        const resultEdit = copyWords.map(words =>{
-        if(words.id === id){
-          words.theme = theme
-          words.eng = eng
-          words.rus = rus
-          return words
-        }
-        return words
-        } )
-        setWords(resultEdit)
-      }
+
       return(
+
         <div className="gameFlex">
           <button className="buttonWord1" onClick={hadleClickPrev}></button>
-            <Game item={gameCards[count]} editWords = {editWords}></Game>
+            <Game item={gameCards[count]}></Game>
             <button className="buttonWord2" onClick={hadleClickNext}></button>
         </div>
       )
 }
+
+
+
